@@ -65,7 +65,6 @@ fun VideoPlayerScreen(
                             ViewGroup.LayoutParams.WRAP_CONTENT
                         )
                         useController = true
-                        player = this@AndroidView.player
                     }
                 },
                 update = { playerView ->
